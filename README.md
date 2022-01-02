@@ -4,30 +4,12 @@ This application uses a Rails backend framework and a [frontend](https://github.
 
 ## To Run
 
-* run $ rails db:create
+* Clone this repo to your directory
 * run $ rails db:migrate
+* run $ rails db:seed
 * Create a .env file in the root directory of your app
-* Get a Client Key and add it to the dotenv like so:
+* Obtain a Client_ID from [Board Game Atlas](https://api.boardgameatlas.com/api/docs/apps) and add it to the .env file like so:\
 ```API_KEY = your_api_key```
 
+* run $ rails s
 
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
