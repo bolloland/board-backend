@@ -8,7 +8,7 @@ class CreateGames < ActiveRecord::Migration[6.1]
       t.integer :min_time
       t.integer :max_time
       t.integer :age
-      t.text :description
+      t.string :description
       t.string :thumb_url
       t.string :image_url
       t.decimal :avg_rating, precision: 10, scale: 3
