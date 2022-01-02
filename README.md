@@ -1,9 +1,8 @@
-# README
+# BOARD HORDE
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application uses a Rails backend framework and a [frontend](https://github.com/bolloland/board-frontend/blob/master/README.md#npm-start) powered by React/Redux
 
-# To Run
+## To Run
 
 * run $ rails db:create
 * run $ rails db:migrate
