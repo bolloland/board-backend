@@ -44,3 +44,5 @@ gem "http", "~> 5.0"
 gem "httparty", "~> 0.20.0"
 
 gem "dotenv-rails", "~> 2.7"
+
+gem "active_model_serializers", "~> 0.10.12"
