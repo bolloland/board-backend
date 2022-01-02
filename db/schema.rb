@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 2021_12_06_194133) do
     t.integer "min_time"
     t.integer "max_time"
     t.integer "age"
-    t.text "description"
+    t.string "description"
     t.string "thumb_url"
     t.string "image_url"
     t.decimal "avg_rating", precision: 10, scale: 3
@@ -33,7 +33,7 @@ ActiveRecord::Schema.define(version: 2021_12_06_194133) do
   create_table "reviews", force: :cascade do |t|
     t.string "title"
     t.integer "game_id"
-    t.text "rev_text"
+    t.string "rev_text"
     t.integer "rating"
     t.integer "user_id"
     t.datetime "created_at", precision: 6, null: false
