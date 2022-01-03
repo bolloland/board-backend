@@ -10,7 +10,7 @@ class GamesController < ApplicationController
 
   # GET /games/1
   def show
-    render json: @game
+    render json: @game, include: [:reviews]
   end
 
   # POST /games
