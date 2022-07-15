@@ -13,3 +13,5 @@ This application uses a Rails backend framework and a [frontend](https://github.
 
 * run $ rails s
 
+* to reset seed data: run $ rake db:reset
+
