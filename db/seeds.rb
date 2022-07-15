@@ -3,7 +3,7 @@ require 'httparty'
 require 'json'
 
 def game_seed_data
-    url = "https://api.boardgameatlas.com/api/search?random&limit=50&client_id=rXBDkScl0L"
+    url = "https://api.boardgameatlas.com/api/search?random&limit=100&client_id=rXBDkScl0L"
 
     games = HTTParty.get(url)
         # byebug
